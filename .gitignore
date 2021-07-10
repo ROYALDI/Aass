@@ -3,3 +3,89 @@
 
 # Ada Library Information
 *.ali
+*Dontrun
+*Run
+*Startmasage
+*Copyid
+#
+
+Selamat datang di Python
+print.py
+cd /Users/admin/Desktop/
+python print.py
+
+public class MyClass {
+public static void main(String[] args) {
+int myNum = 5;               // integer (whole number)
+float myFloatNum = 5.99f;    // floating point number
+char myLetter = 'D';         // character
+boolean myBool = true;       // boolean
+String myText = "Hello";     // String
+System.out.println(myNum);
+System.out.println(myFloatNum);
+System.out.println(myLetter);
+System.out.println(myBool);
+System.out.println(myText);
+}
+}
+
+public class MyClass {
+public static void main(String[] args) {
+int day = 4;
+switch (day) {
+case 1:
+System.out.println("Monday");
+break;
+case 2:
+System.out.println("Tuesday");
+break;
+case 3:
+System.out.println("Wednesday");
+break;
+case 4:
+System.out.println("Thursday");
+break;
+case 5:
+System.out.println("Friday");
+break;
+case 6:
+System.out.println("Saturday");
+break;
+case 7:
+System.out.println("Sunday");
+break;
+}
+}
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+int sum1 = 100 + 50;        // 150 (100 + 50)
+int sum2 = sum1 + 250;      // 400 (150 + 250)
+int sum3 = sum2 + sum2;     // 800 (400 + 400)
+cout << sum1 << "\n";
+cout << sum2 << "\n";
+cout << sum3;
+return 0;
+}
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main () {
+string firstName = "John ";
+string lastName = "Doe";
+string fullName = firstName + lastName;
+cout << fullName;
+return 0;
+}
+
+
+solana-tokens distribute-spl-tokens --db-path db --fee-payer /home/bisni/.config/solana/id.json --input-csv test1.txt --from mistery
+/home/bisni/.config/solana/id.json
+
+solana-tokens distribute-spl-tokens --db-path db --fee-payer C:\Users\bisni\.config\solana\id.json --input-csv test1.txt --from E6y5ahtYJTjomCGSpZKcSxo9Ec3oHCqZZPxqZms5KGcc --owner C:\Users\bisni\.config\solana\id.json
